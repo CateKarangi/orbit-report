@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input  } from '@angular/core';
+import { Sattelite } from '../satellite';
 
 @Component({
   selector: 'app-orbit-list',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./orbit-list.component.css']
 })
 export class OrbitListComponent implements OnInit {
+  @Input()  sattelites: Sattelite[];
 
   constructor() { }
 

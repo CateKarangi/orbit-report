@@ -8,8 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'orbit-report';
-
-  sourceList : Satellite [];
+  
+  sourceList : Sattelite [];
 
   constructor (){
 
