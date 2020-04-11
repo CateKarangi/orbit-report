@@ -8,5 +8,10 @@
         <th>Orbit Type</th> 
         <th>Launch Date</th>
           </tr>
-          
+     
+  <ul>
+  <li>*ngFor = "let satellite of satellites; let num = index">
+      <h2># {{num}} {{satellite.name}}/$</h2>
+  </li>    
+  </ul>        
 </table>
