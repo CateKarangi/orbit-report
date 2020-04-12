@@ -9,7 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'orbit-report';
   
-  sourceList : Sattelite [];
+  sourceList : Satellite [];
 
   constructor (){
 
