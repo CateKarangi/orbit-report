@@ -1,4 +1,5 @@
-<h3> Orbit Report</h3>
+<h1> Orbit Report</h1>
+
 <table> 
     <tr class = "header-row">
         <th class = "sortble">Name</th>
@@ -9,8 +10,11 @@
           </tr>
      
   <ul>
-  <li>*ngFor = "let satellite of satellites">
-    
-  </li>    
-  </ul>        
+
+     <li *ngFor = "let satellite of satellites"> {{satellite}} </li>
+
+  </ul>  
+     <label>
+      <input #satelliteInput>{{satellites.value}}
+     </label>   
 </table>

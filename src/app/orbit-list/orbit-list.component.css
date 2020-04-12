@@ -43,16 +43,16 @@ orbit-list-component.css
 }
 
 .warning {
-    background-color: #da8a8a;
+    background-color: #DD11D0;
 }
 
 table {
-  color: #111;
-  border-radius: 5px;
+  color: #DD1141;
+  border-radius: 10px;
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
+  background: #41DD11;
 }
 
 .header-row {
