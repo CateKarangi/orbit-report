@@ -11,17 +11,15 @@ button {
     font-size: 18px;
     cursor: pointer;
 }
-index-html.css
-  <style>
-    body {
-      font-family: 'Helvetica', 'Courier';
-    }
 
-    h3 {
-        color: #34495E;
-    }
-  </style>
-orbit-count-component.css
+body {
+    font-family: 'Helvetica', 'Courier';
+}
+
+h3 {
+    color: #34495E;
+}
+    
 .counts {
     background: #34495E;
     color: #fff;
@@ -36,7 +34,7 @@ orbit-count-component.css
 .counts span {
     float: right;
 }
-orbit-list-component.css
+
 .sortable {
     cursor: pointer;
     color: #dd5;

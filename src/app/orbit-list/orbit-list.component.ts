@@ -11,7 +11,7 @@ import { Satellite } from '../satellite';
 
 export class OrbitListComponent implements OnInit {
 
-  @Input()  sattelites: Satellite[];
+  @Input("sattelites")  sattelites: Satellite[];
 
   constructor() { }
 
