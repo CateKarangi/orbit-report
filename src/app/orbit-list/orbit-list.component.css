@@ -52,9 +52,17 @@ table {
   min-width: 300px;
   background: #41DD11;
 }
-
+tr:nth-child(odd) {
+    background-color: rgb(65, 179, 65);
+}
+tr:nth-child(even) {
+    background-color: rgb(191, 201, 207);
+}
+tr, td{
+    border: 0px;
+}
 .header-row {
-    background: #34495E;
+    background-color: #34495E !important;
     color: #fff
 }
 
