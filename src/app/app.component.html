@@ -2,7 +2,11 @@
  <h1>
    welcome to {{title}}!
  </h1>  
- <app-orbit-list [sattelites] ="sourceList"></app-orbit-list>
+ <div class="search-form">
+  <input (keyup.enter)="search(searchTerm.value)" #searchTerm type="text" />
+ <button (click)="search(searchTerm.value)">Search</button>
+ </div>
+ <app-orbit-list [sattelites] ="displayList"></app-orbit-list>
 </div>  
 
 
